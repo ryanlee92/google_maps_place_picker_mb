@@ -201,7 +201,7 @@ class GoogleMapPlacePicker extends StatelessWidget {
       mapToolbarEnabled: false,
       initialCameraPosition: initialCameraPosition,
       mapType: mapType,
-      myLocationEnabled: true,
+      myLocationEnabled: false,
       circles: pickArea != null && pickArea!.radius > 0
           ? Set<Circle>.from([pickArea])
           : Set<Circle>(),
